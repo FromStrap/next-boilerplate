@@ -2,6 +2,13 @@
 
 Boilerplate used by FromStrap for React/SSR projects.
 
+clone and start
+
+```
+ git clone --depth=1 https://github.com/FromStrap/next-boilerplate.git <PROJECT_NAME> 
+```
+
+
 ### Techs Used
 
 - NextJS for SSR and ISR
