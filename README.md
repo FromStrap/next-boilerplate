@@ -44,7 +44,7 @@ Open [http://localhost:6006](http://localhost:6006) with your browser to see the
 
 #### Visual Studio Code
 
-Use vscode and install recommends extensions for a better experience.Ï
+Use vscode and install recommended extensions for a better experience.
 
 ## Learn More
 
