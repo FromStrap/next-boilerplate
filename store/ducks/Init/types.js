@@ -1,0 +1,3 @@
+export const INCREMENT = "@EXAMPLE/INCREMENT";
+export const DECREMENT = "@EXAMPLE/DECREMENT";
+export const RESET = "@EXAMPLE/RESET";

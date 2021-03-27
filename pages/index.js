@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import tw from "twin.macro";
 import styled from 'styled-components'
 
@@ -22,10 +23,10 @@ export default function Home() {
             This boilerplate use <a href="https://tailwindcss.com/" tw="text-blue-500">Tailwind</a>{" "}
             with{" "}
             <a href="https://github.com/ben-rogerson/twin.macro" tw="text-gray-700">twin.macro</a>,{" "}
-            <a href="https://redux.js.org/" tw="text-purple-800">Redux</a> with{" "}
-            <a href="https://redux-toolkit.js.org/" tw="text-purple-700">Redux Toolkit</a> and{" "}
+            <a href="https://redux.js.org/" tw="text-purple-800">Redux</a> and{" "}
             <a href="https://storybook.js.org/" tw="text-pink-600">Storybook</a>.
           </p>
+          <Link tw="mt-5" as="a" href="/redux">Redux Testing</Link>
         </Container>
       </main>
     </div>
