@@ -1,7 +1,8 @@
 import Head from "next/head";
 import tw from "twin.macro";
+import styled from 'styled-components'
 
-const Container = tw.div`flex flex-col items-center justify-center w-screen h-screen`;
+const Container = styled.div`${tw`flex flex-col items-center justify-center w-screen h-screen`}`;
 
 export default function Home() {
   return (
