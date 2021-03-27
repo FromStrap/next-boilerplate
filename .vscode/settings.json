@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".storybook": true,
+    ".babelrc.js": true,
+    "next.config.js": true,
+    "postcss.config.js": true,
+    ".vscode": true
+  }
+}
