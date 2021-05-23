@@ -19,14 +19,14 @@ export default function Home () {
             <h1 tw="bg-red-600 text-white font-semibold">FromStrap</h1>
             <h1 tw="text-gray-800">NextJS Boilerplate</h1>
           </span>
-          <p tw="mt-4">
+          <p tw="mt-4 mb-4">
             This boilerplate use <a href="https://tailwindcss.com/" tw="text-blue-500">Tailwind</a>{' '}
             with{' '}
             <a href="https://github.com/ben-rogerson/twin.macro" tw="text-gray-700">twin.macro</a>,{' '}
             <a href="https://redux.js.org/" tw="text-purple-800">Redux</a> and{' '}
             <a href="https://storybook.js.org/" tw="text-pink-600">Storybook</a>.
           </p>
-          <Link tw="mt-5" as="a" href="/redux">Redux Testing</Link>
+          <Link href="/redux">Redux Testing</Link>
         </Container>
       </main>
     </div>
