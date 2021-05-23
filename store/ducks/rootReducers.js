@@ -1,9 +1,9 @@
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux'
 
-import InitReducer from "./Init/reducers";
+import InitReducer from './Init/reducers'
 
 const Reducers = combineReducers({
-  InitReducer,
-});
+  InitReducer
+})
 
-export default Reducers;
+export default Reducers

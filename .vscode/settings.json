@@ -17,6 +17,11 @@
     "tw\\.\\w+`([^`]*)", // tw.xxx`...`
     "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
   ],
+  // For Eslint 
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
   // For Workspace
   "files.exclude": {
     "node_modules": true,

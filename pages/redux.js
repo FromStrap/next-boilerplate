@@ -1,16 +1,16 @@
-import Link from "next/link";
-import { useSelector, useDispatch } from "react-redux";
-import { Increment, Decrement, Reset } from "../store/ducks/Init/actions";
-import tw from "twin.macro";
+import Link from 'next/link'
+import { useSelector, useDispatch } from 'react-redux'
+import { Increment, Decrement, Reset } from '../store/ducks/Init/actions'
+import tw from 'twin.macro'
 
-const Container = tw.section`flex flex-col items-center justify-center w-full h-screen`;
-const Button = tw.button`px-6 py-3 bg-gray-100 transition-colors delay-75`;
+const Container = tw.section`flex flex-col items-center justify-center w-full h-screen`
+const Button = tw.button`px-6 py-3 bg-gray-100 transition-colors delay-75`
 
-export default function ReduxTester() {
-  const dispatch = useDispatch();
-  const counter = useSelector((state) => state.InitReducer);
+export default function ReduxTester () {
+  const dispatch = useDispatch()
+  const counter = useSelector((state) => state.InitReducer)
 
-  console.log(counter);
+  console.log(counter)
 
   return (
     <Container>
@@ -33,5 +33,5 @@ export default function ReduxTester() {
       </div>
       <button onClick={() => dispatch(Reset())}>Reset</button>
     </Container>
-  );
+  )
 }
